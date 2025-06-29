@@ -82,7 +82,7 @@ const UserTable = () => {
         <input type="checkbox" className="form-checkbox" />
         {role.name}
       </label>
-      <a href="#" className="text-[#6941C6] text-sm underline whitespace-nowrap">
+      <a href="#" className="text-[#6941C6] text-sm  whitespace-nowrap">
         {role.date}
       </a>
     </div>
