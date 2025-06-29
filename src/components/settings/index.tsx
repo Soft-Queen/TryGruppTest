@@ -261,7 +261,7 @@ const SettingsPage: React.FC = () => {
             </p>
           </div>
           <div className="w-full md:max-w-[70%]">
-          {["Superadmin", "Developeradmin", "Supportadmin"].map((role, index) => (
+          {["Superadmin", "Developeradmin", "Supportadmin"].map((role) => (
               <div
                 key={role}
                 className={`flex items-center justify-between border p-4 rounded-md mb-3 ${
